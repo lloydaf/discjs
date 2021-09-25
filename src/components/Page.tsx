@@ -1,10 +1,10 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 
 import { Card, Box, Text, Checkbox } from '@freenow/wave'
 
 import { Page as PageType } from '../types'
 
-const Page = ({ page }: { page: PageType }): ReactNode => (
+const Page = ({ page }: { page: PageType }): JSX.Element => (
   <Card>
     <Box>
       <Text>Attribute</Text>
