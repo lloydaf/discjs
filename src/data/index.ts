@@ -1,4 +1,4 @@
-import { State } from "../types";
+import { State } from '../types'
 
 const state: State = {
   pages: [
@@ -6,24 +6,24 @@ const state: State = {
       pageNumber: 1,
       fields: [
         {
-          text: "Enthusiastic",
-          most: "SQ",
-          least: "SQ"
+          text: 'Enthusiastic',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Daring",
-          most: "Z",
-          least: "Z"
+          text: 'Daring',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Diplomatic",
-          most: "STAR",
-          least: "STAR"
+          text: 'Diplomatic',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Satisfied",
-          most: "TRI",
-          least: "TRI"
+          text: 'Satisfied',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -31,24 +31,24 @@ const state: State = {
       pageNumber: 2,
       fields: [
         {
-          text: "Cautious",
-          most: "STAR",
-          least: "STAR"
+          text: 'Cautious',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Determined",
-          most: "Z",
-          least: "Z"
+          text: 'Determined',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Convincing",
-          most: "SQ",
-          least: "SQ"
+          text: 'Convincing',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Good-Natured",
-          most: "TRI",
-          least: "N"
+          text: 'Good-Natured',
+          most: 'TRI',
+          least: 'N'
         }
       ]
     },
@@ -56,24 +56,24 @@ const state: State = {
       pageNumber: 3,
       fields: [
         {
-          text: "Friendly",
-          most: "SQ",
-          least: "N"
+          text: 'Friendly',
+          most: 'SQ',
+          least: 'N'
         },
         {
-          text: "Accurate",
-          most: "STAR",
-          least: "STAR"
+          text: 'Accurate',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Outspoken",
-          most: "Z",
-          least: "Z"
+          text: 'Outspoken',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Calm",
-          most: "N",
-          least: "TRI"
+          text: 'Calm',
+          most: 'N',
+          least: 'TRI'
         }
       ]
     },
@@ -81,24 +81,24 @@ const state: State = {
       pageNumber: 4,
       fields: [
         {
-          text: "Talkative",
-          most: "SQ",
-          least: "SQ"
+          text: 'Talkative',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Controlled",
-          most: "STAR",
-          least: "STAR"
+          text: 'Controlled',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Conventional",
-          most: "TRI",
-          least: "TRI"
+          text: 'Conventional',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Decisive",
-          most: "N",
-          least: "N"
+          text: 'Decisive',
+          most: 'N',
+          least: 'N'
         }
       ]
     },
@@ -106,24 +106,24 @@ const state: State = {
       pageNumber: 5,
       fields: [
         {
-          text: "Adventurous",
-          most: "Z",
-          least: "Z"
+          text: 'Adventurous',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Insightful",
-          most: "STAR",
-          least: "STAR"
+          text: 'Insightful',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Out-going",
-          most: "SQ",
-          least: "SQ"
+          text: 'Out-going',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Moderate",
-          most: "TRI",
-          least: "TRI"
+          text: 'Moderate',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -131,24 +131,24 @@ const state: State = {
       pageNumber: 6,
       fields: [
         {
-          text: "Gentle",
-          most: "TRI",
-          least: "TRI"
+          text: 'Gentle',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Persuasive",
-          most: "SQ",
-          least: "N"
+          text: 'Persuasive',
+          most: 'SQ',
+          least: 'N'
         },
         {
-          text: "Humble",
-          most: "N",
-          least: "STAR"
+          text: 'Humble',
+          most: 'N',
+          least: 'STAR'
         },
         {
-          text: "Original",
-          most: "N",
-          least: "Z"
+          text: 'Original',
+          most: 'N',
+          least: 'Z'
         }
       ]
     },
@@ -156,24 +156,24 @@ const state: State = {
       pageNumber: 7,
       fields: [
         {
-          text: "Expressive",
-          most: "SQ",
-          least: "SQ"
+          text: 'Expressive',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Conscientious",
-          most: "STAR",
-          least: "STAR"
+          text: 'Conscientious',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Dominant",
-          most: "Z",
-          least: "Z"
+          text: 'Dominant',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Responsive",
-          most: "N",
-          least: "TRI"
+          text: 'Responsive',
+          most: 'N',
+          least: 'TRI'
         }
       ]
     },
@@ -181,24 +181,24 @@ const state: State = {
       pageNumber: 8,
       fields: [
         {
-          text: "Poised",
-          most: "SQ",
-          least: "SQ"
+          text: 'Poised',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Observant",
-          most: "STAR",
-          least: "N"
+          text: 'Observant',
+          most: 'STAR',
+          least: 'N'
         },
         {
-          text: "Modest",
-          most: "TRI",
-          least: "TRI"
+          text: 'Modest',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Impatient",
-          most: "Z",
-          least: "Z"
+          text: 'Impatient',
+          most: 'Z',
+          least: 'Z'
         }
       ]
     },
@@ -206,24 +206,24 @@ const state: State = {
       pageNumber: 9,
       fields: [
         {
-          text: "Tactful",
-          most: "STAR",
-          least: "STAR"
+          text: 'Tactful',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Agreeable",
-          most: "TRI",
-          least: "TRI"
+          text: 'Agreeable',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Magnetic",
-          most: "SQ",
-          least: "SQ"
+          text: 'Magnetic',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Insistent",
-          most: "Z",
-          least: "Z"
+          text: 'Insistent',
+          most: 'Z',
+          least: 'Z'
         }
       ]
     },
@@ -231,24 +231,24 @@ const state: State = {
       pageNumber: 10,
       fields: [
         {
-          text: "Brave",
-          most: "Z",
-          least: "Z"
+          text: 'Brave',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Inspiring",
-          most: "SQ",
-          least: "SQ"
+          text: 'Inspiring',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Submissive",
-          most: "TRI",
-          least: "TRI"
+          text: 'Submissive',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Timid",
-          most: "N",
-          least: "STAR"
+          text: 'Timid',
+          most: 'N',
+          least: 'STAR'
         }
       ]
     },
@@ -256,24 +256,24 @@ const state: State = {
       pageNumber: 11,
       fields: [
         {
-          text: "Reserved",
-          most: "STAR",
-          least: "STAR"
+          text: 'Reserved',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Obliging",
-          most: "TRI",
-          least: "TRI"
+          text: 'Obliging',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Strong-willed",
-          most: "Z",
-          least: "Z"
+          text: 'Strong-willed',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Cheerful",
-          most: "SQ",
-          least: "SQ"
+          text: 'Cheerful',
+          most: 'SQ',
+          least: 'SQ'
         }
       ]
     },
@@ -281,24 +281,24 @@ const state: State = {
       pageNumber: 12,
       fields: [
         {
-          text: "Stimulating",
-          most: "SQ",
-          least: "SQ"
+          text: 'Stimulating',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Kind",
-          most: "TRI",
-          least: "TRI"
+          text: 'Kind',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Perceptive",
-          most: "STAR",
-          least: "STAR"
+          text: 'Perceptive',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Independent",
-          most: "Z",
-          least: "Z"
+          text: 'Independent',
+          most: 'Z',
+          least: 'Z'
         }
       ]
     },
@@ -306,24 +306,24 @@ const state: State = {
       pageNumber: 13,
       fields: [
         {
-          text: "Competitive",
-          most: "Z",
-          least: "Z"
+          text: 'Competitive',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Considerate",
-          most: "TRI",
-          least: "TRI"
+          text: 'Considerate',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Joyful",
-          most: "SQ",
-          least: "SQ"
+          text: 'Joyful',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Private",
-          most: "STAR",
-          least: "STAR"
+          text: 'Private',
+          most: 'STAR',
+          least: 'STAR'
         }
       ]
     },
@@ -331,24 +331,24 @@ const state: State = {
       pageNumber: 14,
       fields: [
         {
-          text: "Fussy",
-          most: "STAR",
-          least: "STAR"
+          text: 'Fussy',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Obedient",
-          most: "TRI",
-          least: "TRI"
+          text: 'Obedient',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Firm",
-          most: "Z",
-          least: "Z"
+          text: 'Firm',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Playful",
-          most: "SQ",
-          least: "SQ"
+          text: 'Playful',
+          most: 'SQ',
+          least: 'SQ'
         }
       ]
     },
@@ -356,24 +356,24 @@ const state: State = {
       pageNumber: 15,
       fields: [
         {
-          text: "Attractive",
-          most: "SQ",
-          least: "SQ"
+          text: 'Attractive',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Introspective",
-          most: "STAR",
-          least: "N"
+          text: 'Introspective',
+          most: 'STAR',
+          least: 'N'
         },
         {
-          text: "Stubborn",
-          most: "Z",
-          least: "Z"
+          text: 'Stubborn',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Predictable",
-          most: "TRI",
-          least: "TRI"
+          text: 'Predictable',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -381,24 +381,24 @@ const state: State = {
       pageNumber: 16,
       fields: [
         {
-          text: "Logical",
-          most: "STAR",
-          least: "STAR"
+          text: 'Logical',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Bold",
-          most: "Z",
-          least: "Z"
+          text: 'Bold',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Loyal",
-          most: "TRI",
-          least: "TRI"
+          text: 'Loyal',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Charming",
-          most: "SQ",
-          least: "SQ"
+          text: 'Charming',
+          most: 'SQ',
+          least: 'SQ'
         }
       ]
     },
@@ -406,24 +406,24 @@ const state: State = {
       pageNumber: 17,
       fields: [
         {
-          text: "Sociable",
-          most: "SQ",
-          least: "SQ"
+          text: 'Sociable',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Patient",
-          most: "TRI",
-          least: "TRI"
+          text: 'Patient',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Self-reliant",
-          most: "Z",
-          least: "Z"
+          text: 'Self-reliant',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Soft-spoken",
-          most: "STAR",
-          least: "STAR"
+          text: 'Soft-spoken',
+          most: 'STAR',
+          least: 'STAR'
         }
       ]
     },
@@ -431,24 +431,24 @@ const state: State = {
       pageNumber: 18,
       fields: [
         {
-          text: "Willing",
-          most: "TRI",
-          least: "TRI"
+          text: 'Willing',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Eager",
-          most: "Z",
-          least: "N"
+          text: 'Eager',
+          most: 'Z',
+          least: 'N'
         },
         {
-          text: "Thorough",
-          most: "STAR",
-          least: "STAR"
+          text: 'Thorough',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "High-Spirited",
-          most: "SQ",
-          least: "SQ"
+          text: 'High-Spirited',
+          most: 'SQ',
+          least: 'SQ'
         }
       ]
     },
@@ -456,24 +456,24 @@ const state: State = {
       pageNumber: 19,
       fields: [
         {
-          text: "Aggressive",
-          most: "Z",
-          least: "Z"
+          text: 'Aggressive',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Extroverted",
-          most: "SQ",
-          least: "SQ"
+          text: 'Extroverted',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Amiable",
-          most: "TRI",
-          least: "TRI"
+          text: 'Amiable',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Fearful",
-          most: "N",
-          least: "STAR"
+          text: 'Fearful',
+          most: 'N',
+          least: 'STAR'
         }
       ]
     },
@@ -481,24 +481,24 @@ const state: State = {
       pageNumber: 20,
       fields: [
         {
-          text: "Confident",
-          most: "SQ",
-          least: "SQ"
+          text: 'Confident',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Sympathetic",
-          most: "TRI",
-          least: "TRI"
+          text: 'Sympathetic',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Impartial",
-          most: "N",
-          least: "STAR"
+          text: 'Impartial',
+          most: 'N',
+          least: 'STAR'
         },
         {
-          text: "Assertive",
-          most: "Z",
-          least: "Z"
+          text: 'Assertive',
+          most: 'Z',
+          least: 'Z'
         }
       ]
     },
@@ -506,24 +506,24 @@ const state: State = {
       pageNumber: 21,
       fields: [
         {
-          text: "Well disciplined",
-          most: "STAR",
-          least: "STAR"
+          text: 'Well disciplined',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Generous",
-          most: "TRI",
-          least: "TRI"
+          text: 'Generous',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Animated",
-          most: "SQ",
-          least: "SQ"
+          text: 'Animated',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Persistent",
-          most: "Z",
-          least: "Z"
+          text: 'Persistent',
+          most: 'Z',
+          least: 'Z'
         }
       ]
     },
@@ -531,24 +531,24 @@ const state: State = {
       pageNumber: 22,
       fields: [
         {
-          text: "Impulsive",
-          most: "SQ",
-          least: "SQ"
+          text: 'Impulsive',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Introverted",
-          most: "STAR",
-          least: "STAR"
+          text: 'Introverted',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Forceful",
-          most: "Z",
-          least: "Z"
+          text: 'Forceful',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Easy-going",
-          most: "TRI",
-          least: "TRI"
+          text: 'Easy-going',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -556,24 +556,24 @@ const state: State = {
       pageNumber: 23,
       fields: [
         {
-          text: "Good mixer",
-          most: "SQ",
-          least: "SQ"
+          text: 'Good mixer',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Refined",
-          most: "STAR",
-          least: "STAR"
+          text: 'Refined',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Vigorous",
-          most: "Z",
-          least: "Z"
+          text: 'Vigorous',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Lenient",
-          most: "TRI",
-          least: "TRI"
+          text: 'Lenient',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -581,24 +581,24 @@ const state: State = {
       pageNumber: 24,
       fields: [
         {
-          text: "Captivating",
-          most: "SQ",
-          least: "SQ"
+          text: 'Captivating',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Contended",
-          most: "TRI",
-          least: "TRI"
+          text: 'Contended',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Demanding",
-          most: "Z",
-          least: "Z"
+          text: 'Demanding',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Compliant",
-          most: "STAR",
-          least: "STAR"
+          text: 'Compliant',
+          most: 'STAR',
+          least: 'STAR'
         }
       ]
     },
@@ -606,24 +606,24 @@ const state: State = {
       pageNumber: 25,
       fields: [
         {
-          text: "Argumentative",
-          most: "Z",
-          least: "Z"
+          text: 'Argumentative',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Systematic",
-          most: "STAR",
-          least: "STAR"
+          text: 'Systematic',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Cooperative",
-          most: "TRI",
-          least: "TRI"
+          text: 'Cooperative',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Light-hearted",
-          most: "SQ",
-          least: "SQ"
+          text: 'Light-hearted',
+          most: 'SQ',
+          least: 'SQ'
         }
       ]
     },
@@ -631,24 +631,24 @@ const state: State = {
       pageNumber: 26,
       fields: [
         {
-          text: "Jovial",
-          most: "SQ",
-          least: "SQ"
+          text: 'Jovial',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Precise",
-          most: "STAR",
-          least: "STAR"
+          text: 'Precise',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Direct",
-          most: "Z",
-          least: "Z"
+          text: 'Direct',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Even-tempered",
-          most: "TRI",
-          least: "TRI"
+          text: 'Even-tempered',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     },
@@ -656,24 +656,24 @@ const state: State = {
       pageNumber: 27,
       fields: [
         {
-          text: "Restless",
-          most: "Z",
-          least: "Z"
+          text: 'Restless',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Neighborly",
-          most: "TRI",
-          least: "TRI"
+          text: 'Neighborly',
+          most: 'TRI',
+          least: 'TRI'
         },
         {
-          text: "Appealing",
-          most: "SQ",
-          least: "SQ"
+          text: 'Appealing',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Careful",
-          most: "STAR",
-          least: "STAR"
+          text: 'Careful',
+          most: 'STAR',
+          least: 'STAR'
         }
       ]
     },
@@ -681,24 +681,24 @@ const state: State = {
       pageNumber: 28,
       fields: [
         {
-          text: "Respectful",
-          most: "STAR",
-          least: "STAR"
+          text: 'Respectful',
+          most: 'STAR',
+          least: 'STAR'
         },
         {
-          text: "Pioneering",
-          most: "Z",
-          least: "Z"
+          text: 'Pioneering',
+          most: 'Z',
+          least: 'Z'
         },
         {
-          text: "Optimistic",
-          most: "SQ",
-          least: "SQ"
+          text: 'Optimistic',
+          most: 'SQ',
+          least: 'SQ'
         },
         {
-          text: "Helpful",
-          most: "TRI",
-          least: "TRI"
+          text: 'Helpful',
+          most: 'TRI',
+          least: 'TRI'
         }
       ]
     }

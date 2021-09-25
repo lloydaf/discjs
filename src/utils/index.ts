@@ -1,4 +1,4 @@
-import { Sign, State } from "../types";
+import { Sign, State } from '../types'
 
 export const calculate = (state: State): Record<Sign, number> => {
   const pages = state.pages
