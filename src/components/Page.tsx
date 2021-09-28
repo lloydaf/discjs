@@ -4,7 +4,7 @@ import { Card, Box, Text, Checkbox } from '@freenow/wave'
 
 import { Page as PageType } from '../types'
 
-const Page = ({ page }: { page: PageType }): JSX.Element => (
+export const Page = ({ page }: { page: PageType }): JSX.Element => (
   <Card>
     <Box>
       <Text>Attribute</Text>
@@ -20,5 +20,3 @@ const Page = ({ page }: { page: PageType }): JSX.Element => (
     ))}
   </Card>
 )
-
-export default Page

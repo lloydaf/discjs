@@ -1,9 +1,16 @@
 import React from 'react'
-import './App.css'
+
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
+import { Pages } from './views/Pages'
 
 function App(): JSX.Element {
   return (
-    <></>
+    <Router>
+      <Route path="/pages/:pageId">
+        <Pages />
+      </Route>
+    </Router>
   )
 }
 
