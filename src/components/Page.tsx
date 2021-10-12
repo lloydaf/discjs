@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Table, TableRow, TableHeaderCell, TableCell, Box, Text, Checkbox, Button, Card } from '@freenow/wave'
+import { Table, TableRow, TableHeaderCell, TableCell, Box, TextButton, Checkbox, Button, Card, Text } from '@freenow/wave'
 
 import { Page as PageType } from '../types'
 
@@ -22,7 +22,7 @@ export const Page = ({ page }: { page: PageType }): JSX.Element => {
             <TableHeaderCell scope="col">Least</TableHeaderCell>
           </TableRow>
         </thead>
-        <tbody>
+        <tbody id="body">
           {page.fields.map((field, index) => (
             <TableRow key={field.text}>
               <TableCell scope="row">{field.text}</TableCell>
@@ -36,9 +36,9 @@ export const Page = ({ page }: { page: PageType }): JSX.Element => {
           ))}
         </tbody>
       </Table>
-      <Box id="footer" display="flex" justifyContent="flex-start">
-        <Button onClick={clear} mr="1">Clear</Button>
-        <Button>Continue</Button>
+      <Box id="footer" display="flex" justifyContent="space-between" mt={1}>
+        <Button disabled={!most || !least}>Continue</Button>
+        <TextButton onClick={clear} mr="1"><Text weak>Clear</Text></TextButton>
       </Box>
     </Card>
   )

@@ -2,7 +2,7 @@ export type Likelihood = 'most' | 'least'
 
 export type Sign = 'Z' | 'SQ' | 'TRI' | 'STAR' | 'N'
 
-type LikelihoodSignPair = Record<Likelihood, Sign>
+export type LikelihoodSignPair = Record<Likelihood, Sign | undefined>
 
 export type Field = LikelihoodSignPair & {
   text: string
@@ -15,4 +15,11 @@ export type Page = {
 
 export type State = {
   pages: Page[]
+}
+
+
+export type PageMostLeastPair = {
+  pageNumber: number
+  most: Sign
+  least: Sign
 }
