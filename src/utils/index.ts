@@ -1,6 +1,6 @@
-import { Sign, State } from '../types'
+import { Sign, PageState } from '../types'
 
-export const calculate = (state: State): Record<Sign, number> => {
+export const calculate = (state: PageState): Record<Sign, number> => {
   const pages = state.pages
   const initialCount: Record<Sign, number> = {
     SQ: 0,

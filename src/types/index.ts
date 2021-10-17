@@ -13,7 +13,7 @@ export type Page = {
   fields: Field[]
 }
 
-export type State = {
+export type PageState = {
   pages: Page[]
 }
 

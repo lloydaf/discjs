@@ -1,6 +1,6 @@
-import { State } from '../types'
+import { PageState } from '../types'
 
-export const state: State = {
+export const state: PageState = {
   pages: [
     {
       pageNumber: 1,
