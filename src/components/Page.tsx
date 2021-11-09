@@ -15,24 +15,20 @@ export const Page = ({ page }: { page: PageType }): JSX.Element => {
   const [data, setData] = useRecoilState(stateAtom)
   const pageData = data[page.pageNumber]
 
-  console.log('pageData', pageData)
 
-  const [least, setLeast] = useState<{ index: number, value: Sign }>()
-  const [most, setMost] = useState<{ index: number, value: Sign }>()
+  const [least, setLeast] = useState<{ index?: number, value?: Sign }>()
+  const [most, setMost] = useState<{ index?: number, value?: Sign }>()
 
   useEffect(() => {
-    pageData.least && setLeast({
-      value: pageData.least,
-      index: page.fields.findIndex(field => field.least === pageData.least)
+    setLeast({
+      value: pageData.least && pageData.least,
+      index: pageData.least && page.fields.findIndex(field => field.least === pageData.least)
     })
-    pageData.most && setMost({
-      value: pageData.most,
-      index: page.fields.findIndex(field => field.most === pageData.most)
+    setMost({
+      value: pageData.most && pageData.most,
+      index: pageData.most && page.fields.findIndex(field => field.most === pageData.most)
     })
   }, [pageData])
-
-  console.log('most', most)
-  console.log('least', least)
 
   const clear = () => {
     setLeast(undefined)
